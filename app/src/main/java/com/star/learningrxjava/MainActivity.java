@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onNext(Integer integer) {
-                Log.d(TAG, "对Next事件"+ integer +"作出响应"  );
+                Log.d(TAG, "对Next事件" + integer + "作出响应");
 
                 if (integer == 2) {
                     mDisposable.dispose();
